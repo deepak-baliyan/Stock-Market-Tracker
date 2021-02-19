@@ -1,0 +1,1185 @@
+18-Feb-2021 13:01:48 INFO - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+18-Feb-2021 13:01:48 INFO - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+18-Feb-2021 13:01:54 INFO - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+18-Feb-2021 13:01:54 INFO - Finished Spring Data repository scanning in 460ms. Found 1 JPA repository interfaces.
+18-Feb-2021 13:02:03 INFO - Tomcat initialized with port(s): 3306 (http)
+18-Feb-2021 13:02:03 INFO - Initializing ProtocolHandler ["http-nio-3306"]
+18-Feb-2021 13:02:03 INFO - Starting service [Tomcat]
+18-Feb-2021 13:02:03 INFO - Starting Servlet engine: [Apache Tomcat/9.0.36]
+18-Feb-2021 13:02:04 INFO - Initializing Spring embedded WebApplicationContext
+18-Feb-2021 13:02:04 INFO - Root WebApplicationContext: initialization completed in 15672 ms
+18-Feb-2021 13:02:06 INFO - Initializing ExecutorService 'applicationTaskExecutor'
+18-Feb-2021 13:02:06 INFO - HikariPool-1 - Starting...
+18-Feb-2021 13:02:10 INFO - HikariPool-1 - Start completed.
+18-Feb-2021 13:02:11 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+18-Feb-2021 13:02:12 INFO - HHH000412: Hibernate ORM core version 5.4.17.Final
+18-Feb-2021 13:02:13 WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+18-Feb-2021 13:02:16 INFO - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+18-Feb-2021 13:02:18 INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+18-Feb-2021 13:02:22 INFO - LiveReload server is running on port 35729
+18-Feb-2021 13:02:22 INFO - Starting ProtocolHandler ["http-nio-3306"]
+18-Feb-2021 13:02:23 WARN - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 3306 is already in use
+18-Feb-2021 13:02:23 INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+18-Feb-2021 13:02:23 WARN - Invocation of destroy method failed on bean with name 'entityManagerFactory': org.hibernate.AnnotationException: No identifier specified for entity: com.infy.infyinterns.entity.Stock
+18-Feb-2021 13:02:23 INFO - Shutting down ExecutorService 'applicationTaskExecutor'
+18-Feb-2021 13:02:23 INFO - HikariPool-1 - Shutdown initiated...
+18-Feb-2021 13:02:23 INFO - HikariPool-1 - Shutdown completed.
+18-Feb-2021 13:02:23 INFO - Pausing ProtocolHandler ["http-nio-3306"]
+18-Feb-2021 13:02:23 INFO - Stopping service [Tomcat]
+18-Feb-2021 13:02:23 INFO - Stopping ProtocolHandler ["http-nio-3306"]
+18-Feb-2021 13:02:23 INFO - Destroying ProtocolHandler ["http-nio-3306"]
+18-Feb-2021 13:02:23 INFO - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+18-Feb-2021 13:02:23 ERROR - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 3306 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 3306 or configure this application to listen on another port.
+
+18-Feb-2021 13:03:29 INFO - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+18-Feb-2021 13:03:29 INFO - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+18-Feb-2021 13:03:34 INFO - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+18-Feb-2021 13:03:34 INFO - Finished Spring Data repository scanning in 315ms. Found 1 JPA repository interfaces.
+18-Feb-2021 13:03:40 INFO - Tomcat initialized with port(s): 3306 (http)
+18-Feb-2021 13:03:40 INFO - Initializing ProtocolHandler ["http-nio-3306"]
+18-Feb-2021 13:03:40 INFO - Starting service [Tomcat]
+18-Feb-2021 13:03:40 INFO - Starting Servlet engine: [Apache Tomcat/9.0.36]
+18-Feb-2021 13:03:41 INFO - Initializing Spring embedded WebApplicationContext
+18-Feb-2021 13:03:41 INFO - Root WebApplicationContext: initialization completed in 11779 ms
+18-Feb-2021 13:03:43 INFO - Initializing ExecutorService 'applicationTaskExecutor'
+18-Feb-2021 13:03:43 INFO - HikariPool-1 - Starting...
+18-Feb-2021 13:03:46 INFO - HikariPool-1 - Start completed.
+18-Feb-2021 13:03:46 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+18-Feb-2021 13:03:48 INFO - HHH000412: Hibernate ORM core version 5.4.17.Final
+18-Feb-2021 13:03:49 WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+18-Feb-2021 13:03:51 INFO - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+18-Feb-2021 13:03:53 INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+18-Feb-2021 13:03:56 INFO - LiveReload server is running on port 35729
+18-Feb-2021 13:03:56 INFO - Starting ProtocolHandler ["http-nio-3306"]
+18-Feb-2021 13:03:56 WARN - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 3306 is already in use
+18-Feb-2021 13:03:56 INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+18-Feb-2021 13:03:56 WARN - Invocation of destroy method failed on bean with name 'entityManagerFactory': org.hibernate.AnnotationException: No identifier specified for entity: com.infy.infyinterns.entity.Stock
+18-Feb-2021 13:03:56 INFO - Shutting down ExecutorService 'applicationTaskExecutor'
+18-Feb-2021 13:03:56 INFO - HikariPool-1 - Shutdown initiated...
+18-Feb-2021 13:03:56 INFO - HikariPool-1 - Shutdown completed.
+18-Feb-2021 13:03:56 INFO - Pausing ProtocolHandler ["http-nio-3306"]
+18-Feb-2021 13:03:56 INFO - Stopping service [Tomcat]
+18-Feb-2021 13:03:56 INFO - Stopping ProtocolHandler ["http-nio-3306"]
+18-Feb-2021 13:03:56 INFO - Destroying ProtocolHandler ["http-nio-3306"]
+18-Feb-2021 13:03:56 INFO - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+18-Feb-2021 13:03:56 ERROR - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 3306 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 3306 or configure this application to listen on another port.
+
+18-Feb-2021 13:06:50 INFO - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+18-Feb-2021 13:06:50 INFO - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+18-Feb-2021 13:06:55 INFO - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+18-Feb-2021 13:06:55 INFO - Finished Spring Data repository scanning in 288ms. Found 1 JPA repository interfaces.
+18-Feb-2021 13:07:00 INFO - Tomcat initialized with port(s): 3306 (http)
+18-Feb-2021 13:07:00 INFO - Initializing ProtocolHandler ["http-nio-3306"]
+18-Feb-2021 13:07:00 INFO - Starting service [Tomcat]
+18-Feb-2021 13:07:00 INFO - Starting Servlet engine: [Apache Tomcat/9.0.36]
+18-Feb-2021 13:07:00 INFO - Initializing Spring embedded WebApplicationContext
+18-Feb-2021 13:07:00 INFO - Root WebApplicationContext: initialization completed in 10202 ms
+18-Feb-2021 13:07:02 INFO - Initializing ExecutorService 'applicationTaskExecutor'
+18-Feb-2021 13:07:02 INFO - HikariPool-1 - Starting...
+18-Feb-2021 13:07:04 INFO - HikariPool-1 - Start completed.
+18-Feb-2021 13:07:05 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+18-Feb-2021 13:07:06 INFO - HHH000412: Hibernate ORM core version 5.4.17.Final
+18-Feb-2021 13:07:06 WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+18-Feb-2021 13:07:07 INFO - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+18-Feb-2021 13:07:08 INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+18-Feb-2021 13:07:09 INFO - LiveReload server is running on port 35729
+18-Feb-2021 13:07:09 INFO - Starting ProtocolHandler ["http-nio-3306"]
+18-Feb-2021 13:07:09 WARN - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 3306 is already in use
+18-Feb-2021 13:07:10 INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+18-Feb-2021 13:07:10 WARN - Invocation of destroy method failed on bean with name 'entityManagerFactory': org.hibernate.AnnotationException: No identifier specified for entity: com.infy.infyinterns.entity.Stock
+18-Feb-2021 13:07:10 INFO - Shutting down ExecutorService 'applicationTaskExecutor'
+18-Feb-2021 13:07:10 INFO - HikariPool-1 - Shutdown initiated...
+18-Feb-2021 13:07:10 INFO - HikariPool-1 - Shutdown completed.
+18-Feb-2021 13:07:10 INFO - Pausing ProtocolHandler ["http-nio-3306"]
+18-Feb-2021 13:07:10 INFO - Stopping service [Tomcat]
+18-Feb-2021 13:07:10 INFO - Stopping ProtocolHandler ["http-nio-3306"]
+18-Feb-2021 13:07:10 INFO - Destroying ProtocolHandler ["http-nio-3306"]
+18-Feb-2021 13:07:10 INFO - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+18-Feb-2021 13:07:10 ERROR - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 3306 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 3306 or configure this application to listen on another port.
+
+18-Feb-2021 13:22:21 INFO - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+18-Feb-2021 13:22:21 INFO - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+18-Feb-2021 13:22:28 INFO - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+18-Feb-2021 13:22:28 INFO - Finished Spring Data repository scanning in 347ms. Found 1 JPA repository interfaces.
+18-Feb-2021 13:22:35 INFO - Tomcat initialized with port(s): 3306 (http)
+18-Feb-2021 13:22:35 INFO - Initializing ProtocolHandler ["http-nio-3306"]
+18-Feb-2021 13:22:35 INFO - Starting service [Tomcat]
+18-Feb-2021 13:22:35 INFO - Starting Servlet engine: [Apache Tomcat/9.0.36]
+18-Feb-2021 13:22:36 INFO - Initializing Spring embedded WebApplicationContext
+18-Feb-2021 13:22:36 INFO - Root WebApplicationContext: initialization completed in 15669 ms
+18-Feb-2021 13:22:38 INFO - Initializing ExecutorService 'applicationTaskExecutor'
+18-Feb-2021 13:22:38 INFO - HikariPool-1 - Starting...
+18-Feb-2021 13:22:41 INFO - HikariPool-1 - Start completed.
+18-Feb-2021 13:22:41 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+18-Feb-2021 13:22:42 INFO - HHH000412: Hibernate ORM core version 5.4.17.Final
+18-Feb-2021 13:22:42 WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+18-Feb-2021 13:22:44 INFO - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+18-Feb-2021 13:22:46 INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+18-Feb-2021 13:22:49 INFO - LiveReload server is running on port 35729
+18-Feb-2021 13:22:50 INFO - Starting ProtocolHandler ["http-nio-3306"]
+18-Feb-2021 13:22:50 WARN - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 3306 is already in use
+18-Feb-2021 13:22:50 INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+18-Feb-2021 13:22:50 WARN - Invocation of destroy method failed on bean with name 'entityManagerFactory': org.hibernate.AnnotationException: No identifier specified for entity: com.infy.infyinterns.entity.Stock
+18-Feb-2021 13:22:50 INFO - Shutting down ExecutorService 'applicationTaskExecutor'
+18-Feb-2021 13:22:50 INFO - HikariPool-1 - Shutdown initiated...
+18-Feb-2021 13:22:50 INFO - HikariPool-1 - Shutdown completed.
+18-Feb-2021 13:22:50 INFO - Pausing ProtocolHandler ["http-nio-3306"]
+18-Feb-2021 13:22:50 INFO - Stopping service [Tomcat]
+18-Feb-2021 13:22:50 INFO - Stopping ProtocolHandler ["http-nio-3306"]
+18-Feb-2021 13:22:50 INFO - Destroying ProtocolHandler ["http-nio-3306"]
+18-Feb-2021 13:22:50 INFO - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+18-Feb-2021 13:22:50 ERROR - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 3306 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 3306 or configure this application to listen on another port.
+
+18-Feb-2021 13:45:41 INFO - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+18-Feb-2021 13:45:41 INFO - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+18-Feb-2021 13:45:46 INFO - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+18-Feb-2021 13:45:47 INFO - Finished Spring Data repository scanning in 285ms. Found 1 JPA repository interfaces.
+18-Feb-2021 13:45:53 INFO - Tomcat initialized with port(s): 3306 (http)
+18-Feb-2021 13:45:53 INFO - Initializing ProtocolHandler ["http-nio-3306"]
+18-Feb-2021 13:45:53 INFO - Starting service [Tomcat]
+18-Feb-2021 13:45:53 INFO - Starting Servlet engine: [Apache Tomcat/9.0.36]
+18-Feb-2021 13:45:54 INFO - Initializing Spring embedded WebApplicationContext
+18-Feb-2021 13:45:54 INFO - Root WebApplicationContext: initialization completed in 12399 ms
+18-Feb-2021 13:45:57 INFO - Initializing ExecutorService 'applicationTaskExecutor'
+18-Feb-2021 13:45:57 INFO - HikariPool-1 - Starting...
+18-Feb-2021 13:45:59 INFO - HikariPool-1 - Start completed.
+18-Feb-2021 13:46:01 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+18-Feb-2021 13:46:02 INFO - HHH000412: Hibernate ORM core version 5.4.17.Final
+18-Feb-2021 13:46:02 WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+18-Feb-2021 13:46:05 INFO - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+18-Feb-2021 13:46:07 INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+18-Feb-2021 13:46:09 INFO - LiveReload server is running on port 35729
+18-Feb-2021 13:46:09 INFO - Starting ProtocolHandler ["http-nio-3306"]
+18-Feb-2021 13:46:09 WARN - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 3306 is already in use
+18-Feb-2021 13:46:09 INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+18-Feb-2021 13:46:09 WARN - Invocation of destroy method failed on bean with name 'entityManagerFactory': org.hibernate.AnnotationException: No identifier specified for entity: com.infy.infyinterns.entity.Stock
+18-Feb-2021 13:46:09 INFO - Shutting down ExecutorService 'applicationTaskExecutor'
+18-Feb-2021 13:46:09 INFO - HikariPool-1 - Shutdown initiated...
+18-Feb-2021 13:46:09 INFO - HikariPool-1 - Shutdown completed.
+18-Feb-2021 13:46:09 INFO - Pausing ProtocolHandler ["http-nio-3306"]
+18-Feb-2021 13:46:09 INFO - Stopping service [Tomcat]
+18-Feb-2021 13:46:09 INFO - Stopping ProtocolHandler ["http-nio-3306"]
+18-Feb-2021 13:46:09 INFO - Destroying ProtocolHandler ["http-nio-3306"]
+18-Feb-2021 13:46:09 INFO - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+18-Feb-2021 13:46:09 ERROR - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 3306 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 3306 or configure this application to listen on another port.
+
+18-Feb-2021 14:05:17 INFO - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+18-Feb-2021 14:05:17 INFO - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+18-Feb-2021 14:05:22 INFO - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+18-Feb-2021 14:05:22 INFO - Finished Spring Data repository scanning in 236ms. Found 1 JPA repository interfaces.
+18-Feb-2021 14:05:27 INFO - Tomcat initialized with port(s): 3306 (http)
+18-Feb-2021 14:05:27 INFO - Initializing ProtocolHandler ["http-nio-3306"]
+18-Feb-2021 14:05:27 INFO - Starting service [Tomcat]
+18-Feb-2021 14:05:27 INFO - Starting Servlet engine: [Apache Tomcat/9.0.36]
+18-Feb-2021 14:05:28 INFO - Initializing Spring embedded WebApplicationContext
+18-Feb-2021 14:05:28 INFO - Root WebApplicationContext: initialization completed in 10692 ms
+18-Feb-2021 14:05:29 INFO - Initializing ExecutorService 'applicationTaskExecutor'
+18-Feb-2021 14:05:30 INFO - HikariPool-1 - Starting...
+18-Feb-2021 14:05:33 ERROR - HikariPool-1 - Exception during pool initialization.
+java.sql.SQLSyntaxErrorException: Unknown database 'jack/'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:197) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138) ~[HikariCP-3.4.5.jar:?]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358) ~[HikariCP-3.4.5.jar:?]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206) ~[HikariCP-3.4.5.jar:?]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477) ~[HikariCP-3.4.5.jar:?]
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:560) ~[HikariCP-3.4.5.jar:?]
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115) ~[HikariCP-3.4.5.jar:?]
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112) ~[HikariCP-3.4.5.jar:?]
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:158) ~[spring-jdbc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:116) ~[spring-jdbc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:79) ~[spring-jdbc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:324) ~[spring-jdbc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.boot.jdbc.EmbeddedDatabaseConnection.isEmbedded(EmbeddedDatabaseConnection.java:120) ~[spring-boot-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateDefaultDdlAutoProvider.getDefaultDdlAuto(HibernateDefaultDdlAutoProvider.java:42) ~[spring-boot-autoconfigure-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration.lambda$getVendorProperties$1(HibernateJpaConfiguration.java:130) ~[spring-boot-autoconfigure-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateSettings.getDdlAuto(HibernateSettings.java:41) ~[spring-boot-autoconfigure-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateProperties.determineDdlAuto(HibernateProperties.java:136) ~[spring-boot-autoconfigure-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateProperties.getAdditionalProperties(HibernateProperties.java:102) ~[spring-boot-autoconfigure-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateProperties.determineHibernateProperties(HibernateProperties.java:94) ~[spring-boot-autoconfigure-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration.getVendorProperties(HibernateJpaConfiguration.java:132) ~[spring-boot-autoconfigure-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration.entityManagerFactory(JpaBaseConfiguration.java:133) ~[spring-boot-autoconfigure-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:650) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:635) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226) [spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) [spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) [spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1109) [spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:869) [spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551) [spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) [spring-boot-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758) [spring-boot-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750) [spring-boot-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) [spring-boot-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237) [spring-boot-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) [spring-boot-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at com.infy.infyinterns.InfyInternsApplication.main(InfyInternsApplication.java:10) [classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+18-Feb-2021 14:05:34 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+18-Feb-2021 14:05:34 INFO - HHH000412: Hibernate ORM core version 5.4.17.Final
+18-Feb-2021 14:05:35 WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+18-Feb-2021 14:05:37 INFO - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+18-Feb-2021 14:05:38 INFO - HikariPool-1 - Starting...
+18-Feb-2021 14:05:40 ERROR - HikariPool-1 - Exception during pool initialization.
+java.sql.SQLSyntaxErrorException: Unknown database 'jack/'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:197) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138) ~[HikariCP-3.4.5.jar:?]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358) ~[HikariCP-3.4.5.jar:?]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206) ~[HikariCP-3.4.5.jar:?]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477) ~[HikariCP-3.4.5.jar:?]
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:560) ~[HikariCP-3.4.5.jar:?]
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115) ~[HikariCP-3.4.5.jar:?]
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112) ~[HikariCP-3.4.5.jar:?]
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:180) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:101) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.injectServices(DefaultIdentifierGeneratorFactory.java:152) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.injectDependencies(AbstractServiceRegistryImpl.java:286) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:243) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:176) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:118) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1224) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1255) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58) ~[spring-orm-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365) ~[spring-orm-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:391) ~[spring-orm-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]
+	at java.lang.Thread.run(Thread.java:832) [?:?]
+18-Feb-2021 14:05:40 WARN - HHH000342: Could not obtain connection to query metadata : Unknown database 'jack/'
+18-Feb-2021 14:05:41 INFO - LiveReload server is running on port 35729
+18-Feb-2021 14:05:41 INFO - Starting ProtocolHandler ["http-nio-3306"]
+18-Feb-2021 14:05:41 WARN - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 3306 is already in use
+18-Feb-2021 14:05:41 INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+18-Feb-2021 14:05:41 WARN - Invocation of destroy method failed on bean with name 'entityManagerFactory': org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+18-Feb-2021 14:05:41 INFO - Shutting down ExecutorService 'applicationTaskExecutor'
+18-Feb-2021 14:05:41 INFO - Pausing ProtocolHandler ["http-nio-3306"]
+18-Feb-2021 14:05:41 INFO - Stopping service [Tomcat]
+18-Feb-2021 14:05:41 INFO - Stopping ProtocolHandler ["http-nio-3306"]
+18-Feb-2021 14:05:41 INFO - Destroying ProtocolHandler ["http-nio-3306"]
+18-Feb-2021 14:05:41 INFO - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+18-Feb-2021 14:05:41 ERROR - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 3306 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 3306 or configure this application to listen on another port.
+
+18-Feb-2021 14:07:57 INFO - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+18-Feb-2021 14:07:57 INFO - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+18-Feb-2021 14:08:02 INFO - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+18-Feb-2021 14:08:02 INFO - Finished Spring Data repository scanning in 213ms. Found 1 JPA repository interfaces.
+18-Feb-2021 14:08:08 INFO - Tomcat initialized with port(s): 3306 (http)
+18-Feb-2021 14:08:08 INFO - Initializing ProtocolHandler ["http-nio-3306"]
+18-Feb-2021 14:08:08 INFO - Starting service [Tomcat]
+18-Feb-2021 14:08:08 INFO - Starting Servlet engine: [Apache Tomcat/9.0.36]
+18-Feb-2021 14:08:08 INFO - Initializing Spring embedded WebApplicationContext
+18-Feb-2021 14:08:08 INFO - Root WebApplicationContext: initialization completed in 10940 ms
+18-Feb-2021 14:08:11 INFO - Initializing ExecutorService 'applicationTaskExecutor'
+18-Feb-2021 14:08:11 INFO - HikariPool-1 - Starting...
+18-Feb-2021 14:08:14 INFO - HikariPool-1 - Start completed.
+18-Feb-2021 14:08:14 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+18-Feb-2021 14:08:16 INFO - HHH000412: Hibernate ORM core version 5.4.17.Final
+18-Feb-2021 14:08:17 WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+18-Feb-2021 14:08:19 INFO - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+18-Feb-2021 14:08:22 INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+18-Feb-2021 14:08:25 INFO - LiveReload server is running on port 35729
+18-Feb-2021 14:08:25 INFO - Starting ProtocolHandler ["http-nio-3306"]
+18-Feb-2021 14:08:26 WARN - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 3306 is already in use
+18-Feb-2021 14:08:26 INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+18-Feb-2021 14:08:26 WARN - Invocation of destroy method failed on bean with name 'entityManagerFactory': org.hibernate.AnnotationException: No identifier specified for entity: com.infy.infyinterns.entity.Stock
+18-Feb-2021 14:08:26 INFO - Shutting down ExecutorService 'applicationTaskExecutor'
+18-Feb-2021 14:08:26 INFO - HikariPool-1 - Shutdown initiated...
+18-Feb-2021 14:08:26 INFO - HikariPool-1 - Shutdown completed.
+18-Feb-2021 14:08:26 INFO - Pausing ProtocolHandler ["http-nio-3306"]
+18-Feb-2021 14:08:26 INFO - Stopping service [Tomcat]
+18-Feb-2021 14:08:26 INFO - Stopping ProtocolHandler ["http-nio-3306"]
+18-Feb-2021 14:08:26 INFO - Destroying ProtocolHandler ["http-nio-3306"]
+18-Feb-2021 14:08:26 INFO - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+18-Feb-2021 14:08:26 ERROR - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 3306 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 3306 or configure this application to listen on another port.
+
+18-Feb-2021 14:10:30 INFO - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+18-Feb-2021 14:10:30 INFO - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+18-Feb-2021 14:10:34 INFO - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+18-Feb-2021 14:10:34 INFO - Finished Spring Data repository scanning in 320ms. Found 1 JPA repository interfaces.
+18-Feb-2021 14:10:39 INFO - Tomcat initialized with port(s): 3306 (http)
+18-Feb-2021 14:10:39 INFO - Initializing ProtocolHandler ["http-nio-3306"]
+18-Feb-2021 14:10:39 INFO - Starting service [Tomcat]
+18-Feb-2021 14:10:39 INFO - Starting Servlet engine: [Apache Tomcat/9.0.36]
+18-Feb-2021 14:10:40 INFO - Initializing Spring embedded WebApplicationContext
+18-Feb-2021 14:10:40 INFO - Root WebApplicationContext: initialization completed in 9792 ms
+18-Feb-2021 14:10:41 INFO - Initializing ExecutorService 'applicationTaskExecutor'
+18-Feb-2021 14:10:42 INFO - HikariPool-1 - Starting...
+18-Feb-2021 14:10:44 INFO - HikariPool-1 - Start completed.
+18-Feb-2021 14:10:45 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+18-Feb-2021 14:10:47 INFO - HHH000412: Hibernate ORM core version 5.4.17.Final
+18-Feb-2021 14:10:47 WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+18-Feb-2021 14:10:50 INFO - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+18-Feb-2021 14:10:53 INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+18-Feb-2021 14:10:55 INFO - LiveReload server is running on port 35729
+18-Feb-2021 14:10:55 INFO - Starting ProtocolHandler ["http-nio-3306"]
+18-Feb-2021 14:10:55 WARN - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 3306 is already in use
+18-Feb-2021 14:10:55 INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+18-Feb-2021 14:10:55 WARN - Invocation of destroy method failed on bean with name 'entityManagerFactory': org.hibernate.AnnotationException: No identifier specified for entity: com.infy.infyinterns.entity.Stock
+18-Feb-2021 14:10:55 INFO - Shutting down ExecutorService 'applicationTaskExecutor'
+18-Feb-2021 14:10:55 INFO - HikariPool-1 - Shutdown initiated...
+18-Feb-2021 14:10:55 INFO - HikariPool-1 - Shutdown completed.
+18-Feb-2021 14:10:55 INFO - Pausing ProtocolHandler ["http-nio-3306"]
+18-Feb-2021 14:10:55 INFO - Stopping service [Tomcat]
+18-Feb-2021 14:10:55 INFO - Stopping ProtocolHandler ["http-nio-3306"]
+18-Feb-2021 14:10:55 INFO - Destroying ProtocolHandler ["http-nio-3306"]
+18-Feb-2021 14:10:55 INFO - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+18-Feb-2021 14:10:55 ERROR - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 3306 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 3306 or configure this application to listen on another port.
+
+18-Feb-2021 14:37:32 INFO - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+18-Feb-2021 14:37:32 INFO - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+18-Feb-2021 14:37:37 INFO - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+18-Feb-2021 14:37:37 INFO - Finished Spring Data repository scanning in 287ms. Found 1 JPA repository interfaces.
+18-Feb-2021 14:37:43 INFO - Tomcat initialized with port(s): 3306 (http)
+18-Feb-2021 14:37:43 INFO - Initializing ProtocolHandler ["http-nio-3306"]
+18-Feb-2021 14:37:43 INFO - Starting service [Tomcat]
+18-Feb-2021 14:37:43 INFO - Starting Servlet engine: [Apache Tomcat/9.0.36]
+18-Feb-2021 14:37:44 INFO - Initializing Spring embedded WebApplicationContext
+18-Feb-2021 14:37:44 INFO - Root WebApplicationContext: initialization completed in 11480 ms
+18-Feb-2021 14:37:45 INFO - Initializing ExecutorService 'applicationTaskExecutor'
+18-Feb-2021 14:37:46 INFO - HikariPool-1 - Starting...
+18-Feb-2021 14:37:48 INFO - HikariPool-1 - Start completed.
+18-Feb-2021 14:37:49 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+18-Feb-2021 14:37:50 INFO - HHH000412: Hibernate ORM core version 5.4.17.Final
+18-Feb-2021 14:37:51 WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+18-Feb-2021 14:37:53 INFO - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+18-Feb-2021 14:37:55 INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+18-Feb-2021 14:37:58 INFO - LiveReload server is running on port 35729
+18-Feb-2021 14:37:58 INFO - Starting ProtocolHandler ["http-nio-3306"]
+18-Feb-2021 14:37:58 WARN - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 3306 is already in use
+18-Feb-2021 14:37:58 INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+18-Feb-2021 14:37:58 WARN - Invocation of destroy method failed on bean with name 'entityManagerFactory': org.hibernate.AnnotationException: No identifier specified for entity: com.infy.infyinterns.entity.Stock
+18-Feb-2021 14:37:58 INFO - Shutting down ExecutorService 'applicationTaskExecutor'
+18-Feb-2021 14:37:58 INFO - HikariPool-1 - Shutdown initiated...
+18-Feb-2021 14:37:58 INFO - HikariPool-1 - Shutdown completed.
+18-Feb-2021 14:37:58 INFO - Pausing ProtocolHandler ["http-nio-3306"]
+18-Feb-2021 14:37:58 INFO - Stopping service [Tomcat]
+18-Feb-2021 14:37:58 INFO - Stopping ProtocolHandler ["http-nio-3306"]
+18-Feb-2021 14:37:58 INFO - Destroying ProtocolHandler ["http-nio-3306"]
+18-Feb-2021 14:37:58 INFO - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+18-Feb-2021 14:37:58 ERROR - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 3306 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 3306 or configure this application to listen on another port.
+
+18-Feb-2021 14:39:19 INFO - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+18-Feb-2021 14:39:19 INFO - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+18-Feb-2021 14:39:23 INFO - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+18-Feb-2021 14:39:24 INFO - Finished Spring Data repository scanning in 253ms. Found 1 JPA repository interfaces.
+18-Feb-2021 14:39:29 INFO - Tomcat initialized with port(s): 3306 (http)
+18-Feb-2021 14:39:29 INFO - Initializing ProtocolHandler ["http-nio-3306"]
+18-Feb-2021 14:39:29 INFO - Starting service [Tomcat]
+18-Feb-2021 14:39:29 INFO - Starting Servlet engine: [Apache Tomcat/9.0.36]
+18-Feb-2021 14:39:30 INFO - Initializing Spring embedded WebApplicationContext
+18-Feb-2021 14:39:30 INFO - Root WebApplicationContext: initialization completed in 10700 ms
+18-Feb-2021 14:39:32 INFO - Initializing ExecutorService 'applicationTaskExecutor'
+18-Feb-2021 14:39:32 INFO - HikariPool-1 - Starting...
+18-Feb-2021 14:39:34 INFO - HikariPool-1 - Start completed.
+18-Feb-2021 14:39:35 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+18-Feb-2021 14:39:37 INFO - HHH000412: Hibernate ORM core version 5.4.17.Final
+18-Feb-2021 14:39:37 WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+18-Feb-2021 14:39:39 INFO - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+18-Feb-2021 14:39:41 INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+18-Feb-2021 14:39:44 INFO - LiveReload server is running on port 35729
+18-Feb-2021 14:39:44 INFO - Starting ProtocolHandler ["http-nio-3306"]
+18-Feb-2021 14:39:45 WARN - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 3306 is already in use
+18-Feb-2021 14:39:45 INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+18-Feb-2021 14:39:45 WARN - Invocation of destroy method failed on bean with name 'entityManagerFactory': org.hibernate.AnnotationException: No identifier specified for entity: com.infy.infyinterns.entity.Stock
+18-Feb-2021 14:39:45 INFO - Shutting down ExecutorService 'applicationTaskExecutor'
+18-Feb-2021 14:39:45 INFO - HikariPool-1 - Shutdown initiated...
+18-Feb-2021 14:39:45 INFO - HikariPool-1 - Shutdown completed.
+18-Feb-2021 14:39:45 INFO - Pausing ProtocolHandler ["http-nio-3306"]
+18-Feb-2021 14:39:45 INFO - Stopping service [Tomcat]
+18-Feb-2021 14:39:45 INFO - Stopping ProtocolHandler ["http-nio-3306"]
+18-Feb-2021 14:39:45 INFO - Destroying ProtocolHandler ["http-nio-3306"]
+18-Feb-2021 14:39:45 INFO - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+18-Feb-2021 14:39:45 ERROR - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 3306 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 3306 or configure this application to listen on another port.
+
+18-Feb-2021 14:52:51 INFO - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+18-Feb-2021 14:52:51 INFO - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+18-Feb-2021 14:52:53 INFO - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+18-Feb-2021 14:52:53 INFO - Finished Spring Data repository scanning in 143ms. Found 1 JPA repository interfaces.
+18-Feb-2021 14:52:55 INFO - Tomcat initialized with port(s): 3306 (http)
+18-Feb-2021 14:52:55 INFO - Initializing ProtocolHandler ["http-nio-3306"]
+18-Feb-2021 14:52:55 INFO - Starting service [Tomcat]
+18-Feb-2021 14:52:55 INFO - Starting Servlet engine: [Apache Tomcat/9.0.36]
+18-Feb-2021 14:52:56 INFO - Initializing Spring embedded WebApplicationContext
+18-Feb-2021 14:52:56 INFO - Root WebApplicationContext: initialization completed in 4233 ms
+18-Feb-2021 14:52:56 INFO - Initializing ExecutorService 'applicationTaskExecutor'
+18-Feb-2021 14:52:56 INFO - HikariPool-1 - Starting...
+18-Feb-2021 14:52:57 INFO - HikariPool-1 - Start completed.
+18-Feb-2021 14:52:57 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+18-Feb-2021 14:52:58 INFO - HHH000412: Hibernate ORM core version 5.4.17.Final
+18-Feb-2021 14:52:58 WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+18-Feb-2021 14:52:58 INFO - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+18-Feb-2021 14:52:59 INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+18-Feb-2021 14:52:59 INFO - LiveReload server is running on port 35729
+18-Feb-2021 14:52:59 INFO - Starting ProtocolHandler ["http-nio-3306"]
+18-Feb-2021 14:52:59 WARN - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 3306 is already in use
+18-Feb-2021 14:52:59 INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+18-Feb-2021 14:52:59 WARN - Invocation of destroy method failed on bean with name 'entityManagerFactory': org.hibernate.AnnotationException: No identifier specified for entity: com.infy.infyinterns.entity.Stock
+18-Feb-2021 14:52:59 INFO - Shutting down ExecutorService 'applicationTaskExecutor'
+18-Feb-2021 14:52:59 INFO - HikariPool-1 - Shutdown initiated...
+18-Feb-2021 14:52:59 INFO - HikariPool-1 - Shutdown completed.
+18-Feb-2021 14:52:59 INFO - Pausing ProtocolHandler ["http-nio-3306"]
+18-Feb-2021 14:52:59 INFO - Stopping service [Tomcat]
+18-Feb-2021 14:52:59 INFO - Stopping ProtocolHandler ["http-nio-3306"]
+18-Feb-2021 14:52:59 INFO - Destroying ProtocolHandler ["http-nio-3306"]
+18-Feb-2021 14:52:59 INFO - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+18-Feb-2021 14:52:59 ERROR - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 3306 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 3306 or configure this application to listen on another port.
+
+18-Feb-2021 15:11:38 INFO - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+18-Feb-2021 15:11:38 INFO - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+18-Feb-2021 15:11:43 INFO - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+18-Feb-2021 15:11:43 INFO - Finished Spring Data repository scanning in 255ms. Found 1 JPA repository interfaces.
+18-Feb-2021 15:11:48 INFO - Tomcat initialized with port(s): 3306 (http)
+18-Feb-2021 15:11:48 INFO - Initializing ProtocolHandler ["http-nio-3306"]
+18-Feb-2021 15:11:48 INFO - Starting service [Tomcat]
+18-Feb-2021 15:11:48 INFO - Starting Servlet engine: [Apache Tomcat/9.0.36]
+18-Feb-2021 15:11:49 INFO - Initializing Spring embedded WebApplicationContext
+18-Feb-2021 15:11:49 INFO - Root WebApplicationContext: initialization completed in 10739 ms
+18-Feb-2021 15:11:51 INFO - Initializing ExecutorService 'applicationTaskExecutor'
+18-Feb-2021 15:11:51 INFO - HikariPool-1 - Starting...
+18-Feb-2021 15:11:54 INFO - HikariPool-1 - Start completed.
+18-Feb-2021 15:11:55 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+18-Feb-2021 15:11:56 INFO - HHH000412: Hibernate ORM core version 5.4.17.Final
+18-Feb-2021 15:11:56 WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+18-Feb-2021 15:11:58 INFO - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+18-Feb-2021 15:12:00 INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+18-Feb-2021 15:12:03 INFO - LiveReload server is running on port 35729
+18-Feb-2021 15:12:03 INFO - Starting ProtocolHandler ["http-nio-3306"]
+18-Feb-2021 15:12:03 WARN - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 3306 is already in use
+18-Feb-2021 15:12:03 INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+18-Feb-2021 15:12:06 INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+18-Feb-2021 15:12:06 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+18-Feb-2021 15:12:06 INFO - Shutting down ExecutorService 'applicationTaskExecutor'
+18-Feb-2021 15:12:06 INFO - HikariPool-1 - Shutdown initiated...
+18-Feb-2021 15:12:06 INFO - HikariPool-1 - Shutdown completed.
+18-Feb-2021 15:12:06 INFO - Pausing ProtocolHandler ["http-nio-3306"]
+18-Feb-2021 15:12:06 INFO - Stopping service [Tomcat]
+18-Feb-2021 15:12:06 WARN - The web application [ROOT] appears to have started a thread named [Catalina-utility-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@15.0.2/java.util.zip.ZipFile.getMetaInfVersions(ZipFile.java:1055)
+ java.base@15.0.2/java.util.zip.ZipFile$1.getMetaInfVersions(ZipFile.java:1080)
+ java.base@15.0.2/java.util.jar.JarFile.getVersionedEntry(JarFile.java:595)
+ java.base@15.0.2/java.util.jar.JarFile.getEntry(JarFile.java:504)
+ java.base@15.0.2/java.util.jar.JarFile.getJarEntry(JarFile.java:465)
+ java.base@15.0.2/jdk.internal.loader.URLClassPath$JarLoader.getResource(URLClassPath.java:932)
+ java.base@15.0.2/jdk.internal.loader.URLClassPath.getResource(URLClassPath.java:317)
+ java.base@15.0.2/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:720)
+ java.base@15.0.2/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:646)
+ java.base@15.0.2/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:604)
+ java.base@15.0.2/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:168)
+ java.base@15.0.2/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+ app//org.apache.catalina.webresources.Cache.backgroundProcess(Cache.java:183)
+ app//org.apache.catalina.webresources.StandardRoot.backgroundProcess(StandardRoot.java:605)
+ app//org.apache.catalina.core.StandardContext.backgroundProcess(StandardContext.java:5546)
+ app//org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1353)
+ app//org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1357)
+ app//org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1357)
+ app//org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1335)
+ java.base@15.0.2/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+ java.base@15.0.2/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+ java.base@15.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+ java.base@15.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base@15.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+ app//org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+ java.base@15.0.2/java.lang.Thread.run(Thread.java:832)
+18-Feb-2021 15:12:06 INFO - Stopping ProtocolHandler ["http-nio-3306"]
+18-Feb-2021 15:12:06 INFO - Destroying ProtocolHandler ["http-nio-3306"]
+18-Feb-2021 15:12:06 INFO - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+18-Feb-2021 15:12:06 ERROR - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 3306 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 3306 or configure this application to listen on another port.
+
+18-Feb-2021 15:16:06 INFO - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+18-Feb-2021 15:16:06 INFO - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+18-Feb-2021 15:16:11 INFO - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+18-Feb-2021 15:16:12 INFO - Finished Spring Data repository scanning in 498ms. Found 1 JPA repository interfaces.
+18-Feb-2021 15:16:17 INFO - Tomcat initialized with port(s): 3306 (http)
+18-Feb-2021 15:16:17 INFO - Initializing ProtocolHandler ["http-nio-3306"]
+18-Feb-2021 15:16:17 INFO - Starting service [Tomcat]
+18-Feb-2021 15:16:17 INFO - Starting Servlet engine: [Apache Tomcat/9.0.36]
+18-Feb-2021 15:16:18 INFO - Initializing Spring embedded WebApplicationContext
+18-Feb-2021 15:16:18 INFO - Root WebApplicationContext: initialization completed in 12309 ms
+18-Feb-2021 15:16:20 INFO - Initializing ExecutorService 'applicationTaskExecutor'
+18-Feb-2021 15:16:20 INFO - HikariPool-1 - Starting...
+18-Feb-2021 15:16:23 INFO - HikariPool-1 - Start completed.
+18-Feb-2021 15:16:23 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+18-Feb-2021 15:16:24 INFO - HHH000412: Hibernate ORM core version 5.4.17.Final
+18-Feb-2021 15:16:25 WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+18-Feb-2021 15:16:27 INFO - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+18-Feb-2021 15:16:30 INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+18-Feb-2021 15:16:33 INFO - LiveReload server is running on port 35729
+18-Feb-2021 15:16:33 INFO - Starting ProtocolHandler ["http-nio-3306"]
+18-Feb-2021 15:16:33 WARN - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 3306 is already in use
+18-Feb-2021 15:16:33 INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+18-Feb-2021 15:16:35 INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+18-Feb-2021 15:16:35 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+18-Feb-2021 15:16:35 INFO - Shutting down ExecutorService 'applicationTaskExecutor'
+18-Feb-2021 15:16:35 INFO - HikariPool-1 - Shutdown initiated...
+18-Feb-2021 15:16:35 INFO - HikariPool-1 - Shutdown completed.
+18-Feb-2021 15:16:35 INFO - Pausing ProtocolHandler ["http-nio-3306"]
+18-Feb-2021 15:16:35 INFO - Stopping service [Tomcat]
+18-Feb-2021 15:16:35 INFO - Stopping ProtocolHandler ["http-nio-3306"]
+18-Feb-2021 15:16:35 INFO - Destroying ProtocolHandler ["http-nio-3306"]
+18-Feb-2021 15:16:35 INFO - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+18-Feb-2021 15:16:35 ERROR - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 3306 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 3306 or configure this application to listen on another port.
+
+18-Feb-2021 15:18:57 INFO - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+18-Feb-2021 15:18:57 INFO - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+18-Feb-2021 15:19:01 INFO - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+18-Feb-2021 15:19:02 INFO - Finished Spring Data repository scanning in 288ms. Found 1 JPA repository interfaces.
+18-Feb-2021 15:19:07 INFO - Tomcat initialized with port(s): 3306 (http)
+18-Feb-2021 15:19:07 INFO - Initializing ProtocolHandler ["http-nio-3306"]
+18-Feb-2021 15:19:07 INFO - Starting service [Tomcat]
+18-Feb-2021 15:19:07 INFO - Starting Servlet engine: [Apache Tomcat/9.0.36]
+18-Feb-2021 15:19:08 INFO - Initializing Spring embedded WebApplicationContext
+18-Feb-2021 15:19:08 INFO - Root WebApplicationContext: initialization completed in 10220 ms
+18-Feb-2021 15:19:12 INFO - Initializing ExecutorService 'applicationTaskExecutor'
+18-Feb-2021 15:19:12 INFO - HikariPool-1 - Starting...
+18-Feb-2021 15:19:14 INFO - HikariPool-1 - Start completed.
+18-Feb-2021 15:19:14 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+18-Feb-2021 15:19:16 INFO - HHH000412: Hibernate ORM core version 5.4.17.Final
+18-Feb-2021 15:19:17 WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+18-Feb-2021 15:19:19 INFO - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+18-Feb-2021 15:19:22 INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+18-Feb-2021 15:19:24 INFO - LiveReload server is running on port 35729
+18-Feb-2021 15:19:24 INFO - Starting ProtocolHandler ["http-nio-3306"]
+18-Feb-2021 15:19:24 WARN - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 3306 is already in use
+18-Feb-2021 15:19:24 INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+18-Feb-2021 15:19:26 INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+18-Feb-2021 15:19:26 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+18-Feb-2021 15:19:26 INFO - Shutting down ExecutorService 'applicationTaskExecutor'
+18-Feb-2021 15:19:26 INFO - HikariPool-1 - Shutdown initiated...
+18-Feb-2021 15:19:27 INFO - HikariPool-1 - Shutdown completed.
+18-Feb-2021 15:19:27 INFO - Pausing ProtocolHandler ["http-nio-3306"]
+18-Feb-2021 15:19:27 INFO - Stopping service [Tomcat]
+18-Feb-2021 15:19:27 INFO - Stopping ProtocolHandler ["http-nio-3306"]
+18-Feb-2021 15:19:27 INFO - Destroying ProtocolHandler ["http-nio-3306"]
+18-Feb-2021 15:19:27 INFO - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+18-Feb-2021 15:19:27 ERROR - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 3306 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 3306 or configure this application to listen on another port.
+
+18-Feb-2021 15:22:02 INFO - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+18-Feb-2021 15:22:02 INFO - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+18-Feb-2021 15:22:06 INFO - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+18-Feb-2021 15:22:06 INFO - Finished Spring Data repository scanning in 246ms. Found 1 JPA repository interfaces.
+18-Feb-2021 15:22:11 INFO - Tomcat initialized with port(s): 3306 (http)
+18-Feb-2021 15:22:11 INFO - Initializing ProtocolHandler ["http-nio-3306"]
+18-Feb-2021 15:22:11 INFO - Starting service [Tomcat]
+18-Feb-2021 15:22:11 INFO - Starting Servlet engine: [Apache Tomcat/9.0.36]
+18-Feb-2021 15:22:12 INFO - Initializing Spring embedded WebApplicationContext
+18-Feb-2021 15:22:12 INFO - Root WebApplicationContext: initialization completed in 10426 ms
+18-Feb-2021 15:22:15 INFO - Initializing ExecutorService 'applicationTaskExecutor'
+18-Feb-2021 15:22:16 INFO - HikariPool-1 - Starting...
+18-Feb-2021 15:22:18 INFO - HikariPool-1 - Start completed.
+18-Feb-2021 15:22:18 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+18-Feb-2021 15:22:19 INFO - HHH000412: Hibernate ORM core version 5.4.17.Final
+18-Feb-2021 15:22:20 WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+18-Feb-2021 15:22:21 INFO - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+18-Feb-2021 15:22:25 INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+18-Feb-2021 15:22:27 INFO - LiveReload server is running on port 35729
+18-Feb-2021 15:22:27 INFO - Starting ProtocolHandler ["http-nio-3306"]
+18-Feb-2021 15:22:28 WARN - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 3306 is already in use
+18-Feb-2021 15:22:28 INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+18-Feb-2021 15:22:30 INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+18-Feb-2021 15:22:30 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+18-Feb-2021 15:22:30 INFO - Shutting down ExecutorService 'applicationTaskExecutor'
+18-Feb-2021 15:22:30 INFO - HikariPool-1 - Shutdown initiated...
+18-Feb-2021 15:22:30 INFO - HikariPool-1 - Shutdown completed.
+18-Feb-2021 15:22:30 INFO - Pausing ProtocolHandler ["http-nio-3306"]
+18-Feb-2021 15:22:30 INFO - Stopping service [Tomcat]
+18-Feb-2021 15:22:30 INFO - Stopping ProtocolHandler ["http-nio-3306"]
+18-Feb-2021 15:22:30 INFO - Destroying ProtocolHandler ["http-nio-3306"]
+18-Feb-2021 15:22:30 INFO - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+18-Feb-2021 15:22:30 ERROR - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 3306 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 3306 or configure this application to listen on another port.
+
+18-Feb-2021 15:31:25 INFO - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+18-Feb-2021 15:31:25 INFO - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+18-Feb-2021 15:31:29 INFO - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+18-Feb-2021 15:31:30 INFO - Finished Spring Data repository scanning in 217ms. Found 1 JPA repository interfaces.
+18-Feb-2021 15:31:34 INFO - Tomcat initialized with port(s): 3306 (http)
+18-Feb-2021 15:31:34 INFO - Initializing ProtocolHandler ["http-nio-3306"]
+18-Feb-2021 15:31:34 INFO - Starting service [Tomcat]
+18-Feb-2021 15:31:34 INFO - Starting Servlet engine: [Apache Tomcat/9.0.36]
+18-Feb-2021 15:31:35 INFO - Initializing Spring embedded WebApplicationContext
+18-Feb-2021 15:31:35 INFO - Root WebApplicationContext: initialization completed in 10439 ms
+18-Feb-2021 15:31:37 INFO - Initializing ExecutorService 'applicationTaskExecutor'
+18-Feb-2021 15:31:37 INFO - HikariPool-1 - Starting...
+18-Feb-2021 15:31:40 INFO - HikariPool-1 - Start completed.
+18-Feb-2021 15:31:40 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+18-Feb-2021 15:31:42 INFO - HHH000412: Hibernate ORM core version 5.4.17.Final
+18-Feb-2021 15:31:44 WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+18-Feb-2021 15:31:46 INFO - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+18-Feb-2021 15:31:48 INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+18-Feb-2021 15:31:52 INFO - LiveReload server is running on port 35729
+18-Feb-2021 15:31:52 INFO - Starting ProtocolHandler ["http-nio-3306"]
+18-Feb-2021 15:31:53 WARN - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 3306 is already in use
+18-Feb-2021 15:31:53 INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+18-Feb-2021 15:31:54 INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+18-Feb-2021 15:31:54 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+18-Feb-2021 15:31:54 INFO - Shutting down ExecutorService 'applicationTaskExecutor'
+18-Feb-2021 15:31:54 INFO - HikariPool-1 - Shutdown initiated...
+18-Feb-2021 15:31:54 INFO - HikariPool-1 - Shutdown completed.
+18-Feb-2021 15:31:54 INFO - Pausing ProtocolHandler ["http-nio-3306"]
+18-Feb-2021 15:31:54 INFO - Stopping service [Tomcat]
+18-Feb-2021 15:31:54 INFO - Stopping ProtocolHandler ["http-nio-3306"]
+18-Feb-2021 15:31:54 INFO - Destroying ProtocolHandler ["http-nio-3306"]
+18-Feb-2021 15:31:54 INFO - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+18-Feb-2021 15:31:54 ERROR - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 3306 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 3306 or configure this application to listen on another port.
+
+19-Feb-2021 13:17:26 INFO - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+19-Feb-2021 13:17:26 INFO - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+19-Feb-2021 13:17:30 INFO - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+19-Feb-2021 13:17:31 INFO - Finished Spring Data repository scanning in 331ms. Found 1 JPA repository interfaces.
+19-Feb-2021 13:17:36 INFO - Tomcat initialized with port(s): 3306 (http)
+19-Feb-2021 13:17:36 INFO - Initializing ProtocolHandler ["http-nio-3306"]
+19-Feb-2021 13:17:36 INFO - Starting service [Tomcat]
+19-Feb-2021 13:17:36 INFO - Starting Servlet engine: [Apache Tomcat/9.0.36]
+19-Feb-2021 13:17:37 INFO - Initializing Spring embedded WebApplicationContext
+19-Feb-2021 13:17:37 INFO - Root WebApplicationContext: initialization completed in 10875 ms
+19-Feb-2021 13:17:38 INFO - Initializing ExecutorService 'applicationTaskExecutor'
+19-Feb-2021 13:17:38 INFO - HikariPool-1 - Starting...
+19-Feb-2021 13:17:41 INFO - HikariPool-1 - Start completed.
+19-Feb-2021 13:17:43 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+19-Feb-2021 13:17:45 INFO - HHH000412: Hibernate ORM core version 5.4.17.Final
+19-Feb-2021 13:17:45 WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+19-Feb-2021 13:17:48 INFO - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+19-Feb-2021 13:17:50 INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+19-Feb-2021 13:17:55 INFO - LiveReload server is running on port 35729
+19-Feb-2021 13:17:55 INFO - Starting ProtocolHandler ["http-nio-3306"]
+19-Feb-2021 13:17:55 WARN - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 3306 is already in use
+19-Feb-2021 13:17:55 INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+19-Feb-2021 13:17:57 INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+19-Feb-2021 13:17:58 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+19-Feb-2021 13:17:58 INFO - Shutting down ExecutorService 'applicationTaskExecutor'
+19-Feb-2021 13:17:58 INFO - HikariPool-1 - Shutdown initiated...
+19-Feb-2021 13:17:58 INFO - HikariPool-1 - Shutdown completed.
+19-Feb-2021 13:17:58 INFO - Pausing ProtocolHandler ["http-nio-3306"]
+19-Feb-2021 13:17:58 INFO - Stopping service [Tomcat]
+19-Feb-2021 13:17:58 INFO - Stopping ProtocolHandler ["http-nio-3306"]
+19-Feb-2021 13:17:58 INFO - Destroying ProtocolHandler ["http-nio-3306"]
+19-Feb-2021 13:17:58 INFO - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+19-Feb-2021 13:17:58 ERROR - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 3306 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 3306 or configure this application to listen on another port.
+
+19-Feb-2021 15:09:10 INFO - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+19-Feb-2021 15:09:10 INFO - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+19-Feb-2021 15:09:13 INFO - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+19-Feb-2021 15:09:14 INFO - Finished Spring Data repository scanning in 151ms. Found 1 JPA repository interfaces.
+19-Feb-2021 15:09:17 INFO - Tomcat initialized with port(s): 3306 (http)
+19-Feb-2021 15:09:17 INFO - Initializing ProtocolHandler ["http-nio-3306"]
+19-Feb-2021 15:09:17 INFO - Starting service [Tomcat]
+19-Feb-2021 15:09:17 INFO - Starting Servlet engine: [Apache Tomcat/9.0.36]
+19-Feb-2021 15:09:18 INFO - Initializing Spring embedded WebApplicationContext
+19-Feb-2021 15:09:18 INFO - Root WebApplicationContext: initialization completed in 7038 ms
+19-Feb-2021 15:09:18 INFO - Initializing ExecutorService 'applicationTaskExecutor'
+19-Feb-2021 15:09:18 INFO - HikariPool-1 - Starting...
+19-Feb-2021 15:09:23 INFO - HikariPool-1 - Start completed.
+19-Feb-2021 15:09:24 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+19-Feb-2021 15:09:24 INFO - HHH000412: Hibernate ORM core version 5.4.17.Final
+19-Feb-2021 15:09:24 WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+19-Feb-2021 15:09:25 INFO - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+19-Feb-2021 15:09:26 INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+19-Feb-2021 15:09:27 INFO - LiveReload server is running on port 35729
+19-Feb-2021 15:09:27 INFO - Starting ProtocolHandler ["http-nio-3306"]
+19-Feb-2021 15:09:27 WARN - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 3306 is already in use
+19-Feb-2021 15:09:27 INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+19-Feb-2021 15:09:29 INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+19-Feb-2021 15:09:29 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+19-Feb-2021 15:09:29 INFO - Shutting down ExecutorService 'applicationTaskExecutor'
+19-Feb-2021 15:09:29 INFO - HikariPool-1 - Shutdown initiated...
+19-Feb-2021 15:09:29 INFO - HikariPool-1 - Shutdown completed.
+19-Feb-2021 15:09:29 INFO - Pausing ProtocolHandler ["http-nio-3306"]
+19-Feb-2021 15:09:29 INFO - Stopping service [Tomcat]
+19-Feb-2021 15:09:29 INFO - Stopping ProtocolHandler ["http-nio-3306"]
+19-Feb-2021 15:09:29 INFO - Destroying ProtocolHandler ["http-nio-3306"]
+19-Feb-2021 15:09:29 INFO - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+19-Feb-2021 15:09:29 ERROR - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 3306 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 3306 or configure this application to listen on another port.
+
+19-Feb-2021 15:11:43 INFO - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+19-Feb-2021 15:11:43 INFO - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+19-Feb-2021 15:11:45 INFO - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+19-Feb-2021 15:11:45 INFO - Finished Spring Data repository scanning in 193ms. Found 1 JPA repository interfaces.
+19-Feb-2021 15:11:48 INFO - Tomcat initialized with port(s): 3306 (http)
+19-Feb-2021 15:11:48 INFO - Initializing ProtocolHandler ["http-nio-3306"]
+19-Feb-2021 15:11:48 INFO - Starting service [Tomcat]
+19-Feb-2021 15:11:48 INFO - Starting Servlet engine: [Apache Tomcat/9.0.36]
+19-Feb-2021 15:11:48 INFO - Initializing Spring embedded WebApplicationContext
+19-Feb-2021 15:11:48 INFO - Root WebApplicationContext: initialization completed in 5589 ms
+19-Feb-2021 15:11:49 INFO - Initializing ExecutorService 'applicationTaskExecutor'
+19-Feb-2021 15:11:49 INFO - HikariPool-1 - Starting...
+19-Feb-2021 15:11:54 ERROR - HikariPool-1 - Exception during pool initialization.
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:197) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138) ~[HikariCP-3.4.5.jar:?]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358) ~[HikariCP-3.4.5.jar:?]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206) ~[HikariCP-3.4.5.jar:?]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477) ~[HikariCP-3.4.5.jar:?]
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:560) ~[HikariCP-3.4.5.jar:?]
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115) ~[HikariCP-3.4.5.jar:?]
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112) ~[HikariCP-3.4.5.jar:?]
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:158) ~[spring-jdbc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:116) ~[spring-jdbc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:79) ~[spring-jdbc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:324) ~[spring-jdbc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.boot.jdbc.EmbeddedDatabaseConnection.isEmbedded(EmbeddedDatabaseConnection.java:120) ~[spring-boot-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateDefaultDdlAutoProvider.getDefaultDdlAuto(HibernateDefaultDdlAutoProvider.java:42) ~[spring-boot-autoconfigure-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration.lambda$getVendorProperties$1(HibernateJpaConfiguration.java:130) ~[spring-boot-autoconfigure-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateSettings.getDdlAuto(HibernateSettings.java:41) ~[spring-boot-autoconfigure-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateProperties.determineDdlAuto(HibernateProperties.java:136) ~[spring-boot-autoconfigure-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateProperties.getAdditionalProperties(HibernateProperties.java:102) ~[spring-boot-autoconfigure-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateProperties.determineHibernateProperties(HibernateProperties.java:94) ~[spring-boot-autoconfigure-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration.getVendorProperties(HibernateJpaConfiguration.java:132) ~[spring-boot-autoconfigure-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration.entityManagerFactory(JpaBaseConfiguration.java:133) ~[spring-boot-autoconfigure-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:650) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:635) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226) [spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) [spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) [spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1109) [spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:869) [spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551) [spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) [spring-boot-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758) [spring-boot-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750) [spring-boot-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) [spring-boot-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237) [spring-boot-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) [spring-boot-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at com.infy.infyinterns.InfyInternsApplication.main(InfyInternsApplication.java:10) [classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[?:?]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:91) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:144) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:956) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:826) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	... 54 more
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.Net.pollConnect(Native Method) ~[?:?]
+	at sun.nio.ch.Net.pollConnectNow(Net.java:660) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:549) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597) ~[?:?]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:333) ~[?:?]
+	at java.net.Socket.connect(Socket.java:648) ~[?:?]
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:144) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:956) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:826) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	... 54 more
+19-Feb-2021 15:11:55 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+19-Feb-2021 15:11:55 INFO - HHH000412: Hibernate ORM core version 5.4.17.Final
+19-Feb-2021 15:11:55 WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+19-Feb-2021 15:11:55 INFO - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+19-Feb-2021 15:11:56 INFO - HikariPool-1 - Starting...
+19-Feb-2021 15:11:57 INFO - LiveReload server is running on port 35729
+19-Feb-2021 15:11:57 INFO - Starting ProtocolHandler ["http-nio-3306"]
+19-Feb-2021 15:11:57 WARN - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 3306 is already in use
+19-Feb-2021 15:11:57 INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+19-Feb-2021 15:12:01 ERROR - HikariPool-1 - Exception during pool initialization.
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:197) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138) ~[HikariCP-3.4.5.jar:?]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358) ~[HikariCP-3.4.5.jar:?]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206) ~[HikariCP-3.4.5.jar:?]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477) ~[HikariCP-3.4.5.jar:?]
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:560) ~[HikariCP-3.4.5.jar:?]
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115) ~[HikariCP-3.4.5.jar:?]
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112) ~[HikariCP-3.4.5.jar:?]
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:180) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:101) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.injectServices(DefaultIdentifierGeneratorFactory.java:152) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.injectDependencies(AbstractServiceRegistryImpl.java:286) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:243) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:176) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:118) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1224) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1255) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58) ~[spring-orm-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365) ~[spring-orm-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:391) ~[spring-orm-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]
+	at java.lang.Thread.run(Thread.java:832) [?:?]
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[?:?]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:91) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:144) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:956) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:826) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	... 33 more
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.Net.pollConnect(Native Method) ~[?:?]
+	at sun.nio.ch.Net.pollConnectNow(Net.java:660) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:549) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597) ~[?:?]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:333) ~[?:?]
+	at java.net.Socket.connect(Socket.java:648) ~[?:?]
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:144) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:956) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:826) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	... 33 more
+19-Feb-2021 15:12:01 WARN - HHH000342: Could not obtain connection to query metadata : Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+19-Feb-2021 15:12:01 WARN - Invocation of destroy method failed on bean with name 'entityManagerFactory': org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+19-Feb-2021 15:12:01 INFO - Shutting down ExecutorService 'applicationTaskExecutor'
+19-Feb-2021 15:12:01 INFO - Pausing ProtocolHandler ["http-nio-3306"]
+19-Feb-2021 15:12:01 INFO - Stopping service [Tomcat]
+19-Feb-2021 15:12:01 INFO - Stopping ProtocolHandler ["http-nio-3306"]
+19-Feb-2021 15:12:01 INFO - Destroying ProtocolHandler ["http-nio-3306"]
+19-Feb-2021 15:12:01 INFO - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+19-Feb-2021 15:12:01 ERROR - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 3306 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 3306 or configure this application to listen on another port.
+
